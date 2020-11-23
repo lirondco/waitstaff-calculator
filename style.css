@@ -1,0 +1,147 @@
+input::webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+footer {
+    font-size: 12px;
+    margin-left: 10%;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+body {
+    background-color: darkblue;
+    color: #0F0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    text-align: center;
+}
+
+#section {
+    display: inline-block;
+}
+
+#input-label {
+    text-align: right;
+    float: left;
+    width: 50%;
+}
+
+#input-box {
+    text-align: left;
+    width: 20%;
+    float: left;
+    margin-left: 1%;
+}
+
+#buttons {
+    text-align: center;
+}
+
+input {
+    background-color:#0F0;
+    border: 1px solid darkblue;
+    color: darkblue;
+    font-family: inherit;
+}
+
+.form-button {
+    margin-top: 5%;
+    background-color: darkblue;
+    border: 2px solid #0F0;
+    color: inherit;
+    font-family: inherit;
+}
+
+button:hover {
+    background-color: #00ff00;
+    border: 2px solid #00ff00;
+    color: darkblue;
+}
+
+.reset-all {
+    background-color: darkblue;
+    border: 2px solid #0F0;
+    color: inherit;
+    font-family: inherit;
+    margin: 2% 40% 2% 40%;
+}
+
+.right-top {
+    display: flex;
+    flex-direction: row;
+}
+
+#column-1 {
+    flex: 1;
+    text-align: right;
+}
+
+#column-2 {
+    flex: 2;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#column-3 {
+    flex: 3;
+    text-align: right;
+}
+
+#column-4 {
+    flex: 1;
+    text-align: left;
+    margin-left: 3%;
+}
+
+#left-hr {
+    width: 0;
+    color: darkblue;
+}
+
+#right-hr {
+    color: white;
+    margin-left: 0;
+    width: 100px;
+}
+
+legend {
+    color: white;
+}
+
+@media all and (min-width: 800px) {
+    .main-page {
+        display: flex;
+    }
+    .calculator-outer {
+        flex: 55%;
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 2.5%;
+    }
+
+    #section {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #buttons {
+        margin: 10% 0 10% 0;
+    }
+
+    .form-right {
+        flex: 45%;
+        padding-right: 10%;
+        padding-left: 2.5%;
+    }
+
+    .reset-all {
+        margin: 2% 5% 2% 70%;
+    }
+}
