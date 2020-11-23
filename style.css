@@ -130,20 +130,6 @@ legend {
     #section {
         margin-top: 5%;
         margin-bottom: 5%;
-        display: inline-block;
-    }
-    
-    #input-label {
-        text-align: right;
-        float: left;
-        width: 50%;
-    }
-    
-    #input-box {
-        text-align: left;
-        width: 20%;
-        float: left;
-        margin-left: 1%;
     }
 
     #buttons {
