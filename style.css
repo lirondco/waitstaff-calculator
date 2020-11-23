@@ -30,13 +30,15 @@ header {
 
 #input-label {
     text-align: right;
-    flex: 50%:
+    flex: 50%;
+    float: left;
 }
 
 #input-box {
     text-align: left;
     width: 20%;
-    margin-left: 1%;
+    float: left;
+    margin-left: 2%;
 }
 
 #buttons {
