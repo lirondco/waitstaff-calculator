@@ -36,8 +36,8 @@ header {
 
 #input-box {
     text-align: left;
-    flex: 50%;
-    float: left;
+    flex: 20%;
+    float: right;
     margin-left: 2%;
 }
 
