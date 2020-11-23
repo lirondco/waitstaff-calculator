@@ -122,7 +122,6 @@ legend {
     }
     .calculator-outer {
         flex: 55%;
-        text-align: center;
         padding-left: 10%;
         padding-right: 2.5%;
     }
